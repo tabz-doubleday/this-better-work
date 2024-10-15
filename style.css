@@ -9,60 +9,43 @@ body {background-color: #eae2b7;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1{text-align: center;
-   font-family: "Playfair Display", Times, serif;
-   display: block;}
-h2{text-align: center;
-   font-family: "Playfair Display", Times, serif;
-   display: block;}
-h3 {
-  text-align: center;
-  font-family: "Playfair Display", Times, serif;
-  display: block;}
-
-ol{text-align: left;
-    margin-left: 20;
-    width: fit-content;
-     margin-left: auto;
-     margin-right: auto;
-     transform: translatex(-10%);
-  
-   
-  }
-ul{text-align: left;
-   margin-left: 30;
-   width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translatex(-10%);
- }
+h1,
+h2,
+h3 {font-family: "Playfair Display", Times, serif;
+    text-align: center;
+   }
 
 article {
-  padding: 40px 0;
-text-align: center;
+  padding:50px 0;
+}
+article div{
   width: 100%;
- 
 }
-
-
-
-article div {
-  text-align: center;
-  width: auto;
-  
-}
-
-p {
+p{
+  text-align: left;
   line-height: 1.5;
-  text-align: center;
+}
+  div{
+    margin: auto;
+    width: 600xp;
+  }
+    img {
+      width: 100%;
+      max-width:200px;
+      height: auto;
+    }
+      hr{
+        border: 1px solid black;
+      }
+
+ li{
+   text-align: left;
 }
 
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
   width: 600px;
-text-align: center;
-
 }
 
 img {
@@ -79,7 +62,8 @@ a:visited { color:#d62828}
 a:hover{color:#f77f00;
         width:80%;
         }
-  
+  nav a{
+    padding: 5px;
 
 hr {
   border: 1px solid black;
@@ -94,6 +78,16 @@ hr {
             height: 200px;
              object-fit: cover;
           }
-
+    #about {
+      text-align: center;
+    }
+    #contact div {
+      text-align: left;
+    }
+    #portfolio img {
+      margin: auto;
+      display: block;
+    }
+header,
 footer{text-align: center;}
   
